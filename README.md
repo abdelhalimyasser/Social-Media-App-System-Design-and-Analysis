@@ -15,7 +15,7 @@
 
 | Name                  | GitHub                                  | Role / Contribution                                                                    |
 |-----------------------|-----------------------------------------|----------------------------------------------------------------------------------------|
-| Abdelhalim Yasser     | [@abdelhalimyasser](https://github.com/abdelhalimyasser)         | • Class Diagram<br>• Database Diagram<br>• Data Flow Diagram  |
+| Abdelhalim Yasser     | [@abdelhalimyasser](https://github.com/abdelhalimyasser)         | • Class Diagram<br>• Database Diagram<br>• Data Flow Diagram<br>• Web Frontend Development  |
 | Ali Samy              | [@AliSamy12](https://github.com/AliSamy12)                       | • Class Diagram<br>• Database Diagram<br>• Data Flow Diagram  |
 | Abdelrahman Ahmed     | [@eng-boda](https://github.com/eng-boda)                         | • Use Case Diagram<br>• Sequence Diagram  |
 | Abdelrahman Alaa      | [@abdelrahmanalaa-3094](https://github.com/abdelrahmanalaa-3094) | • Use Case Diagram<br>• Sequence Diagram  |
