@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indigo - Social Media</title>
-    <script src="js/utils.js"></script>
-    <script src="js/router.js"></script>
+    <script src="Web Front End Files/js/utils.js"></script>
+    <script src="Web Front End Files/js/router.js"></script>
     <script>
         // Immediate redirect logic
         const user = localStorage.getItem('currentUser');
         if (!user) {
-            window.location.href = 'auth/login.html';
+            window.location.href = 'Web Front End Files/auth/login.html';
         } else {
-            window.location.href = 'feed/feed.html';
+            window.location.href = 'Web Front End Files/feed/feed.html';
         }
     </script>
 </head>
@@ -21,3 +21,5 @@
     <p>Redirecting...</p>
 </body>
 </html>
+
+
