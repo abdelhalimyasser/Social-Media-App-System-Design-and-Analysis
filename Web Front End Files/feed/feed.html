@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - Indigo</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/mood.css">
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container" style="padding-top: 20px;">
+        <!-- Stories -->
+        <div class="stories-container">
+            <div class="story-item">
+                <div class="story-ring" style="border-color: transparent; background: transparent; border: 2px dashed var(--primary-color);">
+                    <img src="https://ui-avatars.com/api/?name=Me&background=eee" class="story-avatar" alt="Add Story">
+                </div>
+                <span style="font-size: 0.75rem;">Add Story</span>
+            </div>
+            <!-- Mock Stories -->
+            <div class="story-item">
+                <div class="story-ring">
+                    <img src="https://i.pravatar.cc/150?img=1" class="story-avatar" alt="User">
+                </div>
+                <span style="font-size: 0.75rem;">Sarah</span>
+            </div>
+            <div class="story-item">
+                <div class="story-ring">
+                    <img src="https://i.pravatar.cc/150?img=2" class="story-avatar" alt="User">
+                </div>
+                <span style="font-size: 0.75rem;">Mike</span>
+            </div>
+             <div class="story-item">
+                <div class="story-ring">
+                    <img src="https://i.pravatar.cc/150?img=3" class="story-avatar" alt="User">
+                </div>
+                <span style="font-size: 0.75rem;">Anna</span>
+            </div>
+        </div>
+
+        <!-- Feed Posts -->
+        <div id="feed-container">
+            <!-- Posts injected by JS -->
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <a href="../composer/composer.html" class="fab">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </a>
+
+    <div id="bottom-nav-placeholder"></div>
+    
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/ai.js"></script>
+    <script src="../js/audio.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="feed.js"></script>
+</body>
+</html>

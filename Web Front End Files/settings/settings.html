@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Indigo</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/mood.css">
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="btn-icon" onclick="history.back()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        </button>
+        <div style="font-weight: 600;">Settings</div>
+        <div style="width: 40px;"></div>
+    </div>
+
+    <div class="container" style="padding-top: 20px;">
+        <h3 style="margin-bottom: 10px;">Appearance</h3>
+        <div class="settings-section">
+            <div style="margin-bottom: 10px; font-weight: 500;">Theme</div>
+            <div class="theme-grid">
+                <div class="theme-option" data-theme="light">Light</div>
+                <div class="theme-option" data-theme="dark">Dark</div>
+                <div class="theme-option" data-theme="mood">Mood</div>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom: 10px;">Privacy & Security</h3>
+        <div class="settings-section">
+            <div class="settings-item">
+                <span class="settings-label">Private Account</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="settings-item">
+                <span class="settings-label">Allow Voice Cloning</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <button class="btn-primary" id="logout-btn" style="width: 100%; background: var(--error-color); margin-top: 20px;">Log Out</button>
+    </div>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="settings.js"></script>
+</body>
+</html>

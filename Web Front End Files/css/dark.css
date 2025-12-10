@@ -1,0 +1,11 @@
+/* Dark mode specific overrides if variables aren't enough */
+[data-theme="dark"] .btn-icon:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] input, 
+[data-theme="dark"] textarea {
+    background-color: var(--surface-color);
+    color: var(--text-main);
+    border-color: var(--border-color);
+}

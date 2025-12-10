@@ -1,0 +1,5 @@
+/* Mood theme specific overrides */
+[data-theme="mood"] body {
+    background-image: linear-gradient(to bottom right, #fff1f2, #fff7ed);
+    background-attachment: fixed;
+}

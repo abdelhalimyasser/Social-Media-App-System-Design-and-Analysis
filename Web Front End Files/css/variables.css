@@ -1,0 +1,66 @@
+:root {
+    /* Main Color System - Indigo/Violet/Soft Blue */
+    --primary-color: #6366f1; /* Indigo 500 */
+    --primary-hover: #4f46e5; /* Indigo 600 */
+    --secondary-color: #8b5cf6; /* Violet 500 */
+    --accent-color: #3b82f6; /* Blue 500 */
+    
+    --bg-color: #f8fafc; /* Slate 50 */
+    --surface-color: #ffffff;
+    --text-main: #1e293b; /* Slate 800 */
+    --text-secondary: #64748b; /* Slate 500 */
+    --border-color: #e2e8f0; /* Slate 200 */
+    
+    --success-color: #10b981;
+    --error-color: #ef4444;
+    --warning-color: #f59e0b;
+
+    /* Gradients */
+    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.5);
+
+    /* Spacing & Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 9999px;
+    
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+    --bg-color: #0f172a; /* Slate 900 */
+    --surface-color: #1e293b; /* Slate 800 */
+    --text-main: #f1f5f9; /* Slate 100 */
+    --text-secondary: #94a3b8; /* Slate 400 */
+    --border-color: #334155; /* Slate 700 */
+    
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Mood Mode Variables (Example: Sunset/Warm) */
+[data-theme="mood"] {
+    --primary-color: #f43f5e; /* Rose 500 */
+    --primary-hover: #e11d48; /* Rose 600 */
+    --secondary-color: #f97316; /* Orange 500 */
+    --bg-color: #fff1f2; /* Rose 50 */
+    --surface-color: #ffffff;
+    
+    --primary-gradient: linear-gradient(135deg, #f43f5e 0%, #f97316 100%);
+}

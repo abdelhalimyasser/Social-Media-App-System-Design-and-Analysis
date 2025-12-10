@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Indigo</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/mood.css">
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container" style="padding-top: 20px;">
+        <div class="search-header">
+            <div class="search-bar-container">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" class="search-input" placeholder="Search people, posts, voice...">
+            </div>
+            
+            <div class="filter-chips">
+                <div class="chip active">All</div>
+                <div class="chip">People</div>
+                <div class="chip">Posts</div>
+                <div class="chip">Voice</div>
+                <div class="chip">Tags</div>
+            </div>
+        </div>
+
+        <h3 class="section-title">Trending Now</h3>
+        <div class="trending-grid">
+            <div class="trending-item">
+                <div class="trending-tag">#Design</div>
+                <div class="trending-title">Future of UI</div>
+                <div class="trending-stats">12.5k posts</div>
+            </div>
+            <div class="trending-item">
+                <div class="trending-tag">#Voice</div>
+                <div class="trending-title">Audio Social</div>
+                <div class="trending-stats">8.2k posts</div>
+            </div>
+            <div class="trending-item">
+                <div class="trending-tag">#Tech</div>
+                <div class="trending-title">AI Revolution</div>
+                <div class="trending-stats">24k posts</div>
+            </div>
+            <div class="trending-item">
+                <div class="trending-tag">#Music</div>
+                <div class="trending-title">New Releases</div>
+                <div class="trending-stats">15k posts</div>
+            </div>
+        </div>
+
+        <h3 class="section-title">Suggested People</h3>
+        <div id="suggested-people">
+            <!-- Injected via JS -->
+        </div>
+    </div>
+
+    <div id="bottom-nav-placeholder"></div>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

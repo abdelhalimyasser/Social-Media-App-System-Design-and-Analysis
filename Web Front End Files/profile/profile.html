@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Indigo</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/mood.css">
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../feed/feed.css"> 
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container" style="padding: 0;">
+        <div class="profile-header">
+            <div class="cover-photo"></div>
+            <div class="profile-avatar-container">
+                <img src="" id="profile-avatar" class="profile-avatar">
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <h1 class="profile-name" id="profile-name">User</h1>
+            <p class="profile-bio" id="profile-bio">Digital enthusiast. Love coding and design.</p>
+            
+            <div class="profile-stats">
+                <div class="stat-item">
+                    <div class="stat-value">128</div>
+                    <div class="stat-label">Posts</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">1.2k</div>
+                    <div class="stat-label">Followers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">450</div>
+                    <div class="stat-label">Following</div>
+                </div>
+            </div>
+
+            <button class="btn-primary" style="padding: 8px 24px; font-size: 0.9rem;">Edit Profile</button>
+        </div>
+
+        <div style="padding: 0 var(--spacing-md);">
+            <div class="voice-intro">
+                <button class="btn-icon" style="background: var(--primary-color); color: white;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </button>
+                <div style="flex: 1;">
+                    <div style="font-weight: 600; font-size: 0.9rem;">Voice Intro</div>
+                    <div style="font-size: 0.75rem; color: var(--text-secondary);">Listen to my bio</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-tabs">
+            <div class="tab-item active">Posts</div>
+            <div class="tab-item">About</div>
+            <div class="tab-item">Saved</div>
+        </div>
+
+        <div id="profile-content" style="padding: 0 var(--spacing-md);">
+            <!-- Content injected here -->
+            <div style="text-align: center; color: var(--text-secondary); padding: 40px;">
+                No posts yet.
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-nav-placeholder"></div>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>
