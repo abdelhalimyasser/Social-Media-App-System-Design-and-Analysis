@@ -19,7 +19,7 @@
 | Ali Samy              | [@AliSamy12](https://github.com/AliSamy12)                       | • Class Diagram<br>• Data Flow Diagram  |
 | Abdelrahman Ahmed     | [@eng-boda](https://github.com/eng-boda)                         | • Use Case Diagram<br>• Sequence Diagram  |
 | Abdelrahman Alaa      | [@abdelrahmanalaa-3094](https://github.com/abdelrahmanalaa-3094) | • Use Case Diagram<br>• Sequence Diagram  |
-| Habiba Ahmed          | [@Habiba200419](https://github.com/Habiba200419)                 | • Web Frontend Development                |
+| Habiba Ahmed          | [@Habiba200419](https://github.com/Habiba200419)                 | • Web Frontend Development<br>• Documentation |
 | Youssef Saeed         | [@Youssef-Saeed14](https://github.com/Youssef-Saeed14)           | • Activity Diagram                        |
 
 ---
